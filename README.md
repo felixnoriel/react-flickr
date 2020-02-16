@@ -12,8 +12,7 @@ Application to list public feed of Flickr API
 -   npm run test
 
 ## Folder/File directory
-- `/index.ts` contains usage of this application
-- `/src/index.ts` contains the subordinate class
-- `/src/model/index.ts` contains types/interfaces of the User and Role object
-- `/tests/index.test.ts` contains unit tests
-- `/tests/sampleinput.ts` contains a static input list of users and roles
+- `/src` contains code to run the application
+- `/src/store` contains construction of store using hooks
+- `/src/components` contains react components
+- `/src/**/*.test.tsx` contains unit tests of react components
